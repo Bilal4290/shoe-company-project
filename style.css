@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width:768px){
+    .main-header-div:has(input:checked) .mobile-nav, .main-header-div:has(input:not(:checked)) .mobileham{
+        opacity: 0;
+    }
+}
+
